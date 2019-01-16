@@ -1,0 +1,1 @@
+What happens: vi kjører to forskjellige "threads" samtidig, som incrementer og decrementer. Tallene blir forskjellige for hver gang (altså ikke nødvendigvis null!). Dette er fordi vi utnytter concurrency, som gjør at de to forskjellige funksjonene ikke nødvendigvis kjører i samme hastighet. 
